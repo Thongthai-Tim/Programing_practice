@@ -1,0 +1,14 @@
+<graphcontrol log="1">
+  <deny displayname="@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{D5F9370B-E232-464F-BE29-A885B1249190}" />
+  <deny displayname="@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{3D541C86-8E90-4F11-B7F0-CB2AD67B3372}" />
+  <deny displayname="@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{A4DCA218-AC9E-4D1F-8600-C5B1F390D408}" />
+  <deny displayname="@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{E6D268BC-AADD-4DAA-BF74-FB666AD0BFAF}" />
+  <deny displayname="@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{DB03982E-40B6-425D-9140-DB4BE21A8213}" />
+  <deny displayname="@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{47E792CF-0BBE-4F7A-859C-194B0768650A}" />
+  <deny displayname="@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{01CFC007-C263-420A-80DC-2988DA4C6105}" />
+  <restart displayname="Hauppauge Cx23100 Video Capture" />
+  <restart displayname="Matrox A/V Input" />
+  <denydialog displayname="Hauppauge Siena Video Capture" dialogid="Live:VideoCapturePin" />
+  <denydialog displayname="Hauppauge HD PVR Capture Device" dialogid="Live:VideoCapturePin" />
+</graphcontrol>
+

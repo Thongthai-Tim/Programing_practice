@@ -1,0 +1,94 @@
+<configuration>
+<resolution width="88" height="60" desc="NTSC DV (video) 12%" />
+<resolution width="88" height="76" desc="PAL D-1 (video) 25%" />
+<resolution width="128" height="96" desc="sub-QCIF" aspectRatio="4:3" />
+<resolution width="176" height="144" desc="QCIF" />
+<resolution width="180" height="120" desc="NTSC DV (video) 25%" aspectRatio="3:2" />
+<resolution width="180" height="144" desc="PAL D-1 (video) 25%" />
+<resolution width="240" height="180" desc="PAL (video)" aspectRatio="4:3" />
+<resolution width="240" height="192" desc="PAL D-1 (video)" aspectRatio="5:4" />
+<resolution width="256" height="188" desc="70mm IMAX (cine)" />
+<resolution width="256" height="256" desc="6cm x 6cm (2 1/4&quot; x 2 1/4&quot;) (slide)" aspectRatio="1:1" />
+<resolution width="300" height="200" desc="NTSC DV (video)" aspectRatio="3:2" />
+<resolution width="320" height="180" desc="HDTV (video)" aspectRatio="16:9" />
+<resolution width="320" height="200" aspectRatio="8:5" />
+<resolution width="320" height="240" aspectRatio="4:3" available="1" />
+<resolution width="320" height="400" aspectRatio="4:5" />
+<resolution width="320" height="480" aspectRatio="2:3" />
+<resolution width="352" height="288" desc="CIF" />
+<resolution width="360" height="200" aspectRatio="9:5" />
+<resolution width="360" height="240" desc="NTSC DV (video) 50%, VistaVision, 35mm ( 24mm x 36mm ) (slide)" aspectRatio="3:2" />
+<resolution width="360" height="288" desc="PAL D-1 (video) 50%" aspectRatio="5:4" />
+<resolution width="360" height="400" aspectRatio="9:10" />
+<resolution width="360" height="480" aspectRatio="3:4" />
+<resolution width="400" height="300" aspectRatio="4:3" />
+<resolution width="426" height="240" desc="240p" selected="1" aspectRatio="16:9" />
+<resolution width="440" height="200" desc="70mm Panavision (cine)" aspectRatio="11:5" />
+<resolution width="480" height="360" desc="PAL (video)" aspectRatio="4:3" />
+<resolution width="480" height="384" desc="PAL D-1 (video)" aspectRatio="5:4" />
+<resolution width="512" height="288" />
+<resolution width="512" height="384" desc="4&quot; x 5&quot; or 8&quot; x 10&quot; (slide)" aspectRatio="4:3" />
+<resolution width="640" height="360" desc="360p" selected="1" aspectRatio="16:9" />
+<resolution width="640" height="400" aspectRatio="8:5" available="1" />
+<resolution width="640" height="480" aspectRatio="4:3" available="1" />
+<resolution width="720" height="480" desc="NTSC DV (video)" aspectRatio="3:2" available="1" />
+<resolution width="720" height="576" desc="PAL D-1 (video)" aspectRatio="5:4" />
+<resolution width="768" height="432" desc="432p" aspectRatio="16:9" />
+<resolution width="768" height="576" desc="PAL (video)" aspectRatio="4:3" available="1" />
+<resolution width="800" height="450" aspectRatio="16:9" />
+<!--<resolution width="800" height="600" aspectRatio="4:3" />-->
+<resolution width="854" height="480" desc="480p" selected="1" aspectRatio="16:9" />
+<resolution width="960" height="540" desc="540p" selected="1" aspectRatio="16:9" />
+<resolution width="960" height="600" aspectRatio="8:5" available="1" />
+<resolution width="1024" height="436" desc="35mm Anamorphic" aspectRatio="2.35:1" />
+<resolution width="1024" height="768" desc="4&quot; x 5&quot; or 8&quot; x 10&quot; (slide)" aspectRatio="4:3" available="1" />
+<resolution width="1024" height="1024" desc="6cm x 6cm (2 1/4&quot; x 2 1/4&quot;) (slide)" aspectRatio="1:1" />
+<resolution width="1088" height="612" aspectRatio="16:9" />
+<resolution width="1120" height="640" desc="35mm (cine)" aspectRatio="7:4" />
+<resolution width="1152" height="864" aspectRatio="4:3" />
+<resolution width="1280" height="720" desc="720p" selected="1" aspectRatio="16:9" />
+<resolution width="1280" height="768" aspectRatio="5:3" />
+<resolution width="1280" height="800" aspectRatio="8:5" />
+<resolution width="1280" height="960" aspectRatio="4:3" available="1" />
+<resolution width="1280" height="1024" aspectRatio="5:4" />
+<resolution width="1360" height="768" aspectRatio="17:9.6" />
+<resolution width="1366" height="768" desc="768p" aspectRatio="16:9" available="1" />
+<resolution width="1440" height="900" aspectRatio="16:10" available="1" />
+<resolution width="1536" height="1024" desc="35mm ( 24mm x 36mm ) (slide), VistaVision" aspectRatio="3:2" />
+<resolution width="1536" height="1152" desc="4&quot; x 5&quot; or 8&quot; x 10&quot; (slide)" aspectRatio="4:3" />
+<resolution width="1536" height="1536" desc="6cm x 6cm (2 1/4&quot; x 2 1/4&quot;) (slide)" aspectRatio="1:1" />
+<resolution width="1600" height="900" desc="900p" aspectRatio="16:9" available="1" />
+<resolution width="1600" height="1024" aspectRatio="25:16" />
+<resolution width="1600" height="1200" aspectRatio="4:3" />
+<resolution width="1680" height="1050" aspectRatio="8:5" available="1" />
+<resolution width="1828" height="1332" desc="35mm Academy (cine)" aspectRatio="1.37:1" />
+<resolution width="1828" height="1556" desc="35mm Anamorphic (Squeezed)" aspectRatio="2.35:1" />
+<resolution width="1920" height="1080" desc="1080p" aspectRatio="16:9" available="1" selected="1" />
+<resolution width="2048" height="1536" aspectRatio="4:3" />
+<resolution width="2048" height="1556" desc="35mm Full Apperture (cine)" aspectRatio="1.316:1" />
+<resolution width="3656" height="2664" desc="35mm Academy (cine)" aspectRatio="1.37:1" />
+<resolution width="3840" height="2160" desc="2160p/4K (UHD)" aspectRatio="16:9" available="1" />
+<resolution width="4096" height="2160" desc="4K (DCI)" aspectRatio="1.9:1" available="1" />
+<resolution width="4096" height="3072" desc="4&quot; x 5&quot; or 8&quot; x 10&quot; (slide)" aspectRatio="4:3" />
+<resolution width="4096" height="3112" desc="35mm Full Apperture (cine)" aspectRatio="1.316:1" />
+<resolution width="4096" height="4096" desc="6cm x 6cm (2 1/4&quot; x 2 1/4&quot;) (slide)" aspectRatio="1:1" />
+<framerate frametime="166667" desc="" />
+<!-- 
+<framerate frametime="166834" desc="" />
+-->
+<framerate frametime="333333" desc="" />
+<framerate frametime="333667" desc="" />
+<framerate frametime="400000" desc="" />
+<framerate frametime="416667" desc="" />
+<framerate frametime="500000" desc="" />
+<!-- 
+<framerate frametime="666667" desc="" />
+<framerate frametime="833333" desc="" />
+<framerate frametime="1000000" desc="" />
+<framerate frametime="1250000" desc="" />
+<framerate frametime="1666667" desc="" />
+<framerate frametime="2000000" desc="" />
+<framerate frametime="2500000" desc="" />
+<framerate frametime="10000000" desc="" />
+-->
+</configuration>

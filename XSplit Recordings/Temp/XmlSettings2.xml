@@ -1,0 +1,731 @@
+<configuration>
+  <broadcaster>
+    <appSettings>
+      <add key="VALIDGAMEPARENTS" value="lollauncher.exe|lol.exe|lol.launcher_tencent.exe|lol.launcher.exe|lol.launcher.admin.exe|HeroesAndGeneralsDesktop.exe" />
+      <add key="USEDBPW" value="0" />
+      <add key="ENABLEUSEEMBEDDEDREG" value="1" />
+      <add key="CHECKBCSTARTUPPROGCOMPATCOUNT" value="2" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT2COUNT" value="5" minversion="3.2.1711.2801" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT2COUNT" value="4" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT2" value="1|XSplit has detected that a modified system file &quot;DSound.dll&quot; has been placed in &quot;{0}&quot; directory. The file description is &quot;{1}&quot;. This modification will cause XSplit to crash or become unstable. &#xD;&#xA;&#xD;&#xA;Allow XSplit to fix this problem by renaming &quot;{0}\DSound.dll&quot;?&#xD;&#xA; (This will only affect the program that placed the file there and not Flash)|%windir%\system32\Macromed\Flash\DSound.dll" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT2EX" value="File|Rename|1" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT21" value="1|A problem occurred and the application cannot continue. Please delete the registry key below and run XSplit again.&#xD;&#xA;&#xD;&#xA;{1}&#xD;&#xA;&#xD;&#xA;For further guidance refer to [this](https://xspl.it/bc/oxp7at) blog post.|HKEY_CLASSES_ROOT\CLSID\{E436EBB3-524F-11CE-9F53-0020AF0BA770}\TreatAs" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT21EX" value="ComObject|Notify|0" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT22" value="1|XSplit has detected module &quot;DirectShowSpy.dll&quot; in your system which will cause unstability to programs where its loaded into.&#xD;&#xA;&#xD;&#xA;{1}&#xD;&#xA;&#xD;&#xA;Allow XSplit to fix this problem by unregistering &quot;{0}\DirectShowSpy.dll&quot;?|DirectShowSpy.dll:ew" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT22EX" value="Module|Unregister|1" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT23" value="1|XSplit has detected BitDefender module hook which has been known to cause crash/freeze in XSplit.&#xD;&#xA;&#xD;&#xA;It is advised to add the XSplit application to BitDefender exclusion or disable BitDefender before continuing to run XSplit. For further guidance refer to [this](https://xspl.it/awvs51) blog post.&#xD;&#xA;&#xD;&#xA;Continue anyway?|a[tv]cuf32.dll|a[tv]cuf64.dll:re" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT23EX" value="ModuleSelf|Continue|1" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT24" value="1|BlackMagic Design MJPEG decoder was detected which is known to cause issue with certain capture cards and video files in XSplit.&#xD;&#xA;&#xD;&#xA;Allow XSplit to fix this problem by deleting registry value below:&#xD;&#xA;&#xD;&#xA;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Drivers32 vidc.mjpg|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Drivers32|vidc.mjpg|BMDCodecMJPG64.dll" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT24EX" value="FileFromRegistry|Rename|1" />
+      <add key="CHECKBCPOSTSTARTUPPROGCOMPAT2COUNT" value="1" />
+      <add key="CHECKBCPOSTSTARTUPPROGCOMPAT2" value="1|XSplit has detected module &quot;DirectShowSpy-Win32.dll&quot; in your system which will cause unstability to programs where its loaded into.&#xD;&#xA;&#xD;&#xA;{1}&#xD;&#xA;&#xD;&#xA;Allow XSplit to fix this problem by unregistering &quot;{0}\DirectShowSpy-Win32.dll&quot;?|DirectShowSpy-Win32.dll:ew" maxversion="3.1.9999.9999" />
+      <add key="CHECKBCPOSTSTARTUPPROGCOMPAT2" value="1|XSplit has detected module &quot;DirectShowSpy-x64.dll&quot; in your system which will cause unstability to programs where its loaded into.&#xD;&#xA;&#xD;&#xA;{1}&#xD;&#xA;&#xD;&#xA;Allow XSplit to fix this problem by unregistering &quot;{0}\DirectShowSpy-x64.dll&quot;?|DirectShowSpy-x64.dll:ew" minversion="3.2.0000.0000" />
+      <add key="CHECKBCPOSTSTARTUPPROGCOMPAT2EX" value="Module|Unregister|1" />
+      <add key="P:EXPERIMENTAL:ELGATOM2TS" value="1" />
+      <add key="ELGATOLIVECLOCKSYNC" value="0" />
+      <add key="DISABLEAVMH264FORDM" value="0" />
+      <add key="MWPROBETIMEOUT" value="5000" />
+      <add key="VIDEOEDITORADDPARENTPARAM" value="1" />
+      <add key="ALLOWSPLITSTREAMRECORDING" value="0" />
+      <add key="ENABLEFLVFILESPLITTINGLR" value="0" />
+      <add key="MINAVAILVIRTUAL" value="209715200" />
+      <add key="MINAVAILPHYS" value="209715200" />
+      <add key="SHOWGAMECAPPLSMOOTHNESSSLIDER" value="0" />
+      <add key="CHECKSOURCEPLUGINSFIRST" value="1" />
+      <add key="READWMRESFROMAPI" value="1" />
+      <add key="ENSURECEF3COMPAT" value="1" />
+      <add key="CEFSETFOCUSMODE" value="513" />
+      <add key="CEFDISABLEGPUCONFIG" value="&lt;config /&gt;" />
+      <add key="HANDLEWIN81PMSCALINGCONFIG" value="&lt;config&gt;&lt;os minversion=&quot;6.3&quot; /&gt;&lt;cef maxversion=&quot;3.1750.1805&quot; /&gt;&lt;/config&gt;" />
+      <add key="HANDLEWIN81PMSCALING2CONFIG" minversion="2.7.1511.2501" value="&lt;config&gt;&lt;os minversion=&quot;6.3&quot; /&gt;&lt;cef maxversion=&quot;3.2171.2069&quot; /&gt;&lt;/config&gt;" />
+      <add key="HANDLEWIN81PMSCALING2CONFIG" value="&lt;config&gt;&lt;os minversion=&quot;6.3&quot; /&gt;&lt;cef /&gt;&lt;/config&gt;" />
+      <add key="CEFDISABLEGPUIFMAINMONITORISINTEL" minversion="2.7.1511.2501" value="0" />
+      <add key="LOGLIBH264NVEXTHWCODECERROR" value="1|nvencHwCodecFailure" />
+      <add key="MSGLIBH264NVEXTHWCODECERROR" value="ERROR_NVENCHW" />
+      <add key="MSGLIBH264NVEXTCODECERROR" value="ERROR_NVENC" />
+      <add key="USEXSPLITPROPSSHOW" value="0" />
+      <add key="VALIDEMAILPATTERN" value="^[a-zA-Z0-9!#$%&amp;\&#39;+=^_`{}~-]+(?:\.[a-zA-Z0-9!#$%&amp;\&#39;+=^_`{}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$" />
+      <add key="YOUTUBE60FPS" value="1" />
+      <add key="STREAMBWAUTOADJUST" value="0|300|50|0|0|0|10|3|1" />
+      <add key="STREAMBWAUTOADJUST2" value="1|300|50|0|0|0|10|3|1" />
+      <add key="CANRUNWITHGAMECASTERMINMAX" value="2.3.1504.2403|" />
+      <add key="DSRTMP" value="0" />
+      <add key="FORCEDLRX264PRESET" value="ultrafast" />
+      <add key="USEFREEMIXERSCALING" value="1" />
+      <add key="ENABLEUSEVCE2CONFIG" value="&lt;config&gt;&lt;item minversion=&quot;14.501.1003.0&quot;/&gt;&lt;os/&gt;&lt;/config&gt;" />
+      <add key="ENABLEUSENVENCHW" value="1" minversion="3.8.0.0" />
+      <add key="ENABLEUSENVENCHW" value="0" minversion="3.3.1804.2701" config="&lt;config&gt;&lt;gpu&gt;&lt;item pnpdevidre=&quot;VEN_10DE&quot; ismobile=&quot;1&quot; /&gt;&lt;/gpu&gt;&lt;/config&gt;" />
+      <add key="ENABLEUSENVENCHW" value="1" minversion="3.3.1804.2701" />
+      <add key="ENABLEUSENVENCHW" value="0" />
+      <add key="ENABLEUSEQS2VCODEC" value="1" />
+      <add key="ALLOWENDURODGPU" value="1" osminversion="10.0.0.0" osmaxversion="99.99.9999.9999" />
+      <add key="SHOWPOWERSCHEMEWARNING" value="1" minversion="2.7.1511.1601" />
+      <add key="CPUUSAGE" value="5|80|5000|300" minversion="2.7.1511.1601" />
+      <add key="BUZZKILL" value="0" />
+      <add key="NODLLSECURITY" value="1" minversion="2.6.1510.2621" maxversion="2.6.1510.2621" />
+      <add key="ENABLESOCIALLOGIN" value="1" minversion="2.7.1512.2108"  />
+      <add key="ENABLESOCIALLOGIN" value="0" />
+      <add key="P:EXPERIMENTAL:SRCSEL" value="1" minversion="2.8.1603.2301" />
+      <add key="SETFPSINYTLAPICALL" value="1" />
+      <add key="GAMECAPPLSMOOTH" value="1" minversion="2.7.1602.2244" />
+      <add key="SHOWREMOVECHANNELSMENU" value="1" />
+      <add key="NDISOURCEVOLUMEOVERRIDE" value="-1" minversion="2.8.1607.1926" />
+      <add key="USEDX12" value="1" osminversion="10.0.14393.0" />
+      <add key="ENABLEUSEDX12" value="1" osminversion="10.0.14393.0" />
+      <!-- DONTRESETCAMITEMAUDIO LGHD2 VID_07CA&amp;PID_0570 only good with this for 3.1.1709.1506+ -->
+      <add key="DONTRESETCAMITEMAUDIO" minversion="3.1.1709.1506" value="VID_07CA&amp;PID_(1510|0570|1513|0553)|VID_0FD9&amp;PID_00(4f|5e)|VEN_12AB&amp;DEV_03(80|71)|VID_117F&amp;PID_521(6|8)|VID_04B4&amp;PID_00F(6|7)|VEN_1172&amp;DEV_1236|VID_1C6C&amp;PID_04CC|VID_04BB&amp;PID_054[356]" />
+      <add key="DONTRESETCAMITEMAUDIO" value="VID_07CA&amp;PID_(1510|1513)|VID_0FD9&amp;PID_00(4f|5e)|VEN_12AB&amp;DEV_0380" />
+      <add key="LOGITECHAUTOSET" value="1" osminversion2="10.0.14393.351" />
+      <add key="MFPPATCHLIST" value="KB4475817|KB4134255|KB4057437|KB4039813|KB4016817|KB3133719|KB3010081|KB3099229|KB3124262|KB3124263" osminversion="10.0.17763.0" />
+      <add key="MFPPATCHLIST" value="KB4057437|KB4039813|KB4016817|KB3133719|KB3010081|KB3099229|KB3124262|KB3124263" osminversion="10.0.17134.0" />
+      <add key="MFPPATCHLIST" value="KB4039813|KB4016817|KB3133719|KB3010081|KB3099229|KB3124262|KB3124263" osminversion="10.0.16299.0" />
+      <add key="MFPPATCHLIST" value="KB4016817|KB3133719|KB3010081|KB3099229|KB3124262|KB3124263" osminversion="10.0.15063.0" />
+      <add key="MFPPATCHLIST" value="KB3133719|KB3010081|KB3099229|KB3124262|KB3124263" osminversion="10.0" />
+      <add key="MFPPATCHLIST" value="KB2835517|KB2929699" osminversion="6.3" />
+      <add key="MFPPATCHLIST" value="KB2703761" osminversion="6.2" />
+      <add key="MFPPATCHLIST" value="KB968211" osminversion="6.1" />
+      <add key="MFPPATCHLINK" value="https://xspl.it/msmfpcentraldl" osminversion="10.0.17763.0" />
+      <add key="MFPPATCHLINK" value="https://xspl.it/mskb4057437" osminversion="10.0.17134.0" />
+      <add key="MFPPATCHLINK" value="https://xspl.it/mskb4039813" osminversion="10.0.16299.0" />
+      <add key="MFPPATCHLINK" value="https://xspl.it/mskb4016817" osminversion="10.0.15063.0" />
+      <add key="MFPPATCHLINK" value="https://xspl.it/mskb3133719" osminversion="10.0" />
+      <add key="MFPPATCHLINK" value="https://xspl.it/msdl40744" osminversion="6.3" />
+      <add key="MFPPATCHLINK" value="https://xspl.it/msdl30685" osminversion="6.2" />
+      <add key="MFPPATCHLINK" value="https://xspl.it/msdl16546" osminversion="6.1" />
+      <add key="SETCAMOPTIMIZEDEFAULTEXCLUSION" value="VID_07CA&amp;PID_(1510|0570|1513)" />
+      <add key="APPSTOREAUTOINJECTEXCLUDEDEXENAMES" value="WinStore.Mobile.exe|SkypeHost.exe|WinStore.App.exe|Video.UI.exe|YourPhone.exe|Microsoft.Photos.exe" />
+      <!--<add key="CEFDISABLEGPU" value="1" config="&lt;config&gt;&lt;gpu&gt;&lt;item pnpdevidre=&quot;VEN_10DE&quot; ismobile=&quot;1&quot; namere=&quot;gtx 10[0-9]{2}&quot; /&gt;&lt;item pnpdevicere=&quot;VEN_8086&quot; minversion=&quot;22.0.0.0&quot; /&gt;&lt;/gpu&gt;&lt;monitor&gt;&lt;item idre=&quot;VEN_10DE&quot; flag=&quot;4&quot; /&gt;&lt;/monitor&gt;&lt;broadcaster&gt;&lt;item key=&quot;gfx&quot; valuere=&quot;^(?!intel)\w*$&quot; /&gt;&lt;/broadcaster&gt;&lt;/config&gt;" />-->
+      <add key="ALLOWAUTOINSTALLEXTENSIONS" value="presentationPackagerplg,webMEncoderplg,sceneSwitcherplg,perSceneAudioplg,audiomixerplg,elgatoStreamDeckplg,obsimporterplg" config="&lt;config&gt;&lt;app&gt;&lt;item namere=&quot;OBS Studio&quot; /&gt;&lt;/app&gt;&lt;device&gt;&lt;item pnpdevidre=&quot;VID_0FD9&amp;amp;PID_0060&quot; /&gt;&lt;/device&gt;&lt;/config&gt;" />
+      <add key="ALLOWAUTOINSTALLEXTENSIONS" value="presentationPackagerplg,webMEncoderplg,sceneSwitcherplg,perSceneAudioplg,audiomixerplg,obsimporterplg" config="&lt;config&gt;&lt;app&gt;&lt;item namere=&quot;OBS Studio&quot; /&gt;&lt;/app&gt;&lt;/config&gt;" />
+      <add key="ALLOWAUTOINSTALLEXTENSIONS" value="presentationPackagerplg,webMEncoderplg,sceneSwitcherplg,perSceneAudioplg,audiomixerplg,elgatoStreamDeckplg" config="&lt;config&gt;&lt;device&gt;&lt;item pnpdevidre=&quot;VID_0FD9&amp;amp;PID_0060&quot; /&gt;&lt;/device&gt;&lt;/config&gt;" />
+      <add key="ALLOWAUTOINSTALLEXTENSIONS" value="presentationPackagerplg,webMEncoderplg,sceneSwitcherplg,perSceneAudioplg,audiomixerplg" />
+      <add key="FACEBOOKAPIVERSION" value="v3.1" minversion="3.4.1807.3002"  />
+      <add key="FACEBOOKAPIVERSION" value="v2.11" minversion="3.3.1805.0302"  />
+      <add key="FACEBOOKAPIVERSION" value="v2.10" minversion="3.0.1705.2001"  />
+      <add key="FACEBOOKAPPKEY" value="580350825396945" minversion="3.0.1702.2701"  />
+      <add key="FBUSERTMPS" value="1" minversion="3.4.1805.0902" />
+      <add key="FBLOGINSCOPE" value="public_profile,email,publish_video,manage_pages,publish_pages,user_posts,user_videos" minversion="3.9.1920.2301" />
+      <add key="FBLOGINSCOPE" value="public_profile,email,publish_video,publish_actions,manage_pages,publish_pages,user_posts,user_videos" minversion="3.9.1920.2201" />
+      <add key="FBLOGINSCOPE" value="public_profile,email,publish_video,manage_pages,publish_pages,user_posts,user_videos" minversion="3.9.1908.2301" />
+      <add key="FBLOGINSCOPE" value="public_profile,email,publish_video,manage_pages,publish_pages,user_posts,user_videos" minversion="3.8.1905.2118" />
+      <add key="FBLOGINSCOPE" value="public_profile,email,publish_video,publish_actions,manage_pages,publish_pages,user_posts,user_videos" minversion="3.4.1805.3101" />
+      <add key="FBLOGINSCOPE" value="public_profile,email,publish_video,publish_actions,manage_pages,publish_pages,user_posts,user_managed_groups" minversion="3.3.1805.0302" />
+      <add key="FBLOGINSCOPE" value="public_profile,email,publish_video,publish_actions,manage_pages,publish_pages,user_posts" minversion="3.1.1707.1801" />
+      <add key="FBOUTPUTSCOPE" value="publish_video,manage_pages,publish_pages,user_videos" minversion="3.8.0000.0000" />
+      <add key="FBOUTPUTSCOPE" value="publish_video,manage_pages,publish_pages" minversion="3.3.1805.0305" />
+      <add key="FBOUTPUTSCOPE" value="publish_video,manage_pages,publish_pages,user_managed_groups" minversion="3.3.1805.0302" />
+      <add key="FBOUTPUTSCOPE" value="publish_video,manage_pages,publish_pages,user_managed_groups,user_events,user_friends,groups_show_list,ads_read" minversion="3.2.0000.0000" />
+      <add key="FBOUTPUTSCOPE" value="publish_video,manage_pages,publish_pages" minversion="3.1.1709.1548" />
+      <add key="FBOUTPUTSCOPE" value="publish_video,manage_pages,publish_pages,user_managed_groups,user_events,user_friends,groups_show_list,ads_read" minversion="3.1.1707.1701" />
+      <add key="FBSHARINGSCOPE" value="publish_video,manage_pages,publish_pages,user_posts" minversion="3.9.1920.2301" />
+      <add key="FBSHARINGSCOPE" value="publish_video,manage_pages,publish_pages,publish_actions,user_posts" minversion="3.9.1920.2201" />
+      <add key="FBSHARINGSCOPE" value="publish_video,manage_pages,publish_pages,user_posts" minversion="3.9.1908.2301" />
+      <add key="FBSHARINGSCOPE" value="publish_video,manage_pages,publish_pages,user_posts" minversion="3.8.1905.2118" />
+      <add key="FBSHARINGSCOPE" value="publish_video,manage_pages,publish_pages,publish_actions,user_posts" minversion="3.3.1805.0305" />
+      <add key="FBSHARINGSCOPE" value="publish_video,publish_actions,user_posts" minversion="3.1.1709.1548" maxversion="3.1.65535.65535" />
+      <!-- LOGSYSINFOOLDTOSERVER works for recent 3.1 updates so ok to not version lock
+        for LOGSYSINFO2REMOTEURL and LOGSYSINFO2REMOTEURL we made client changes since API requires a bit different structure 
+        local data is only added to the final "data" attribute (data.attributes.data) to satisfy server requirement -->
+      <add key="LOGSYSINFOOLDTOSERVER" value="0" />
+      <add key="LOGSYSINFO2REMOTEURL" value="serviceapi/2/log/system_information" minversion="3.0.1709.1507" />
+      <add key="LOGUSERSETTINGSREMOTEURL" value="serviceapi/2/log/settings" minversion="3.0.1709.1507" />
+      <add key="GAMEDLLLIST" value="d3d8.dll|d3d9.dll|dxgi.dll|opengl32.dll" />
+      <add key="GETGAMEFINGERPRINT" value="0" />
+      <add key="GETGAMEFINGERPRINT2" value="0" />
+      <add key="BROWSERPOSTPARAMS" value="ignore-gpu-blacklist" minversion="3.2.1711.2917" config="&lt;config&gt;&lt;gpu&gt;&lt;item namere=&quot;GTX 10&quot; pnpdevidre=&quot;VEN_10DE&quot;/&gt;&lt;/gpu&gt;&lt;component&gt;&lt;item filename=&quot;libcef&quot; minversion=&quot;3.2987.0.0&quot; maxversion=&quot;3.2987.65535.65535&quot;/&gt;&lt;/component&gt;&lt;/config&gt;" />
+      <add key="SOCIALLOGINWINPARAM" value="resize=0&amp;maximize=0&amp;startPosPerParent=1&amp;handlePopupInOwnWindow=1&amp;popupWidth=500&amp;popupHeight=645&amp;" />
+      <add key="SOCIALLOGINFACEBOOKWINPARAM" value="cookiedeletepre=1&amp;cookiepath=cache%5C%5Ccustom%5C%5Cfacebook&amp;" />
+      <add key="USEHTMLTUTORIAL" value="0" minversion="3.5.1808.2919" />
+      <add key="HTMLTUTORIALCUSTOM" value="https://www.xsplit.com/%lang%/a/xbc-welcome" />
+      <add key="P:HTML:TUTORIAL" value="https://www.xsplit.com/a/xbc-welcome" minversion="3.5.1808.2919" />
+      <add key="MEDIALIBFLUSHFIX" value="1" config="&lt;config&gt;&lt;gpu&gt;&lt;item pnpdevidre=&quot;VEN_10DE&quot; ismobile=&quot;1&quot; /&gt;&lt;/gpu&gt;&lt;/config&gt;" />
+      <add key="MEDIALIBFLUSHFIX" value="0" />
+      <add key="USENEWSTREAMONLY" value="0" />
+      <add key="FREENDURL" value="https://www.xsplit.com/%lang%/a/xbc-notice-dialog" />
+      <add key="FREEPPURL" value="https://www.xsplit.com/%lang%/a/xbc-purchase-point" />
+      <add key="USENEWFREEDIALOGMODE" value="1" />
+      <add key="ENABLEUSEREPLAY" value="0" />
+      <add key="NEWUPDATEANNOUNCEURL" value="https://www.xsplit.com/blog/xsplit-broadcaster" minversion="3.5.0000.0000" />
+      <add key="YTOUTPUTSCOPE" value="https://www.googleapis.com/auth/userinfo.email,https://www.googleapis.com/auth/youtube,https://www.googleapis.com/auth/youtube.readonly,https://www.googleapis.com/auth/youtube.upload" />
+      <add key="USEMIXERXSAUTHURL" value="1" />
+      <add key="USETWITCHXSAUTHURL" value="1" minversion="3.9.1922.0401" />
+      <add key="USETWITCHXSAUTHURL" value="0" minversion="3.9.1913.0000" />
+      <add key="USETWITCHXSAUTHURL" value="1" minversion="3.9.1910.0401" />
+      <add key="USETWITCHXSAUTHURL" value="0" />
+      <add key="P:SOUND_ACTIVEAPPTRACK" value="1" />
+      <add key="USEQSMJPEGDECODERCONFIG" value="&lt;config/&gt;" />
+      <add key="GPUPRIORITY" value="1" osminversion="10.0.17763.0" />
+      <add key="D3DKMTSCHEDULINGPRIORITYOFF" value="4" />
+      <add key="ENABLEMFENGINE" value="1" />
+      <add key="ALLOWAUTOINSTALLSOURCES2" value="twitchalertsplg,colorsourceplg" />
+      <add key="VP:PROP:KEEPLOADED" value="1" />
+      <add key="USEEXTERNALBROWSERFORAUTH2" value="youtube" />
+      <add key="USEEXTERNALBROWSERFORAUTH3" value="youtube" />
+      <add key="ENABLEHTMLPANEL" value="1" minversion="4.0.2005.0501" ptr="1" />
+      <add key="P:APPPATHCONFIG" value="&lt;configuration&gt;&lt;appSettings&gt;&lt;param key=&quot;secure_hotkeys&quot; value=&quot;1&quot; /&gt;&lt;/appSettings&gt;&lt;/configuration&gt;" />
+    </appSettings>
+    <gsRenderFix>
+      <game name="Archeblade.exe" value="1" />
+    </gsRenderFix>
+    <gsInject>
+      <game name="StreetFighterV" bitness="2" dllLookup="d3d8.dll|d3d9.dll|dxgi.dll|opengl32.dll|fraps64.dll|XSplitGameSource64.dll" />
+      <!--<game name="DeadByDaylight-Win64-Shipping" bitness="2" dllLookup="d3d8.dll|d3d9.dll|dxgi.dll|opengl32.dll|fraps64.dll|XSplitGameSource64.dll" injectOnReadError="1" dllInject="XSplitGameSource64.dll|fraps64.dll" maxTryCount="1" minversion="2.8.1607.1901" />-->
+    </gsInject>
+    <gsAlpha>
+      <game name="SSOverlay.exe" value="1" refreshOnSet="1" />
+      <game name="sPwnEngine.exe" value="1" refreshOnSet="1" />
+      <game name="OvrStream.exe " value="1" refreshOnSet="1" />
+      <game name="TitlerLiveStandalone.exe" value="1" refreshOnSet="1" />
+      <game name="StreamAvatars.exe" value="1" refreshOnSet="1" />
+      <game name="CookieverseOverlay.exe" value="1" refreshOnSet="1" />
+    </gsAlpha>
+    <gsextraconfig>
+      configuration={
+      ExceptionList={
+      img=Archeblade.exe{renderfix=1},
+      img=Skype.exe{notrackactive=1}
+      }
+      }
+    </gsextraconfig>
+    <knownPluginDlls>
+      <dll filename="Akamai.dll" />
+      <dll filename="Azubu.dll" />
+      <dll filename="Beam.dll" servicename2="Mixer" socialloginservicename="mixer" />
+      <dll filename="BeamFTL.dll" />
+      <dll filename="CDNvideo.dll" />
+      <dll filename="CustomRTMP.dll" />
+      <dll filename="CyberGame.dll" />
+      <dll filename="DailyMotion.dll" />
+      <dll filename="FacebookLive.dll" socialloginservicename="facebook" />
+      <dll filename="fc2.dll" />
+      <dll filename="GoodGame.dll" />
+      <dll filename="hitbox.dll" />
+      <dll filename="LimelightNetworks.dll" />
+      <dll filename="Livehouse.dll" />
+      <dll filename="LivestreamAddin.dll" servicename="Livestream" />
+      <dll filename="LocalStreaming.dll" />
+      <dll filename="Meridix.dll" />
+      <dll filename="NicoVideo.dll" />
+      <dll filename="Periscope.dll" />
+      <dll filename="Popler.dll" />
+      <dll filename="QNAP.dll" />
+      <dll filename="Restream.dll" />
+      <dll filename="Sina.dll" />
+      <dll filename="Smashcast.dll" />
+      <dll filename="SplitMediaLabs.LocalRecording.dll" servicename="LocalRecording" />
+      <dll filename="TalkTV.dll" />
+      <dll filename="StreamShark.dll" />
+      <dll filename="Twitch.dll" socialloginservicename="twitch" />
+      <dll filename="UStreamAddIn.dll" servicename="UStream" />
+      <dll filename="Wowza.dll" />
+      <dll filename="YouNow.dll" servicename="YouNow" />
+      <dll filename="YouTubeLive.dll" socialloginservicename="youtube" />
+    </knownPluginDlls>
+    <sourcePluginCategory>
+      <sourcePlugin name="beamchatplg" category="&lt;beam|Mixer Widgets" socialloginservicename="mixer" />
+      <sourcePlugin name="mixersourcealertplg" category="&lt;beam|Mixer Widgets" socialloginservicename="mixer" />
+      <sourcePlugin name="dmchatplg" category="&lt;dm|Dailymotion Widgets" />
+      <sourcePlugin name="facebookchatplg" category="&lt;fb|Facebook Widgets" socialloginservicename="facebook" />
+      <sourcePlugin name="facebookreactionsplg" category="&lt;fb|Facebook Widgets" socialloginservicename="facebook" />
+      <sourcePlugin name="facebooklivereactionspollcounterplg" category="&lt;fb|Facebook Widgets" socialloginservicename="facebook" />
+      <sourcePlugin name="facebooklivereactionsanimationplg" category="&lt;fb|Facebook Widgets" socialloginservicename="facebook" />
+      <sourcePlugin name="facebooklivealertsplg" category="&lt;fb|Facebook Widgets" socialloginservicename="facebook" />
+      <sourcePlugin name="smashcastchatplg" category="&lt;smashcast|Smashcast Widgets" />
+      <sourcePlugin name="twitchChatHTML5plg" category="&lt;twitch|Twitch Widgets" socialloginservicename="twitch" />
+      <sourcePlugin name="twitchchatplg" category="&lt;twitch|Twitch Widgets" socialloginservicename="twitch" />
+      <sourcePlugin name="twitchcheeralertplg" category="&lt;twitch|Twitch Widgets" socialloginservicename="twitch" />
+      <sourcePlugin name="twitchsourcealertplg" category="&lt;twitch|Twitch Widgets" socialloginservicename="twitch" />
+      <sourcePlugin name="youtubechatplg" category="&lt;yt|YouTube Widgets" socialloginservicename="youtube" />
+      <sourcePlugin name="youtubelivechatplg" category="&lt;yt|YouTube Widgets" socialloginservicename="youtube" />
+      <sourcePlugin name="youtubesuperchatplg" category="&lt;yt|YouTube Widgets" socialloginservicename="youtube" />
+    </sourcePluginCategory>
+  </broadcaster>
+  <gamecaster>
+    <customHide>
+      <img name="LoLLauncher.exe" wndname="PVP.net Patcher" gapi="DX9" />
+      <img name="OvrStream.exe" />
+      <img name="TitlerLiveStandalone.exe" />
+    </customHide>
+    <customGameName>
+      <game name="lolclient.exe" replace="League of Legends" />
+      <game name="League of Legends.exe" replace="League of Legends" />
+    </customGameName>
+    <appSettings>
+      <add key="VALIDGAMEPARENTS" value="lollauncher.exe|lol.exe|lol.launcher_tencent.exe|lol.launcher.exe|lol.launcher.admin.exe|lolpatcher.exe|HeroesAndGeneralsDesktop.exe" />
+      <add key="USEDBPW" value="0" />
+      <add key="ENABLEASUSGPUTWEAKINTEGRATION" value="1|1|1|&lt;config&gt;&lt;item name=&quot;Vender.dll&quot; minversion=&quot;1.1.0.8&quot; /&gt;&lt;item name=&quot;GPUTweak.exe&quot; minversion=&quot;2.8.0.8&quot; /&gt;&lt;item name=&quot;GPUTweakII.exe&quot; minversion=&quot;1.0.0.95&quot; /&gt;&lt;gpuitem pnpdevidre=&quot;^PCI\\VEN_1002.*&quot; minversion=&quot;0.0.0.0&quot; /&gt;&lt;gpuitem pnpdevidre=&quot;^PCI\\VEN_10DE.*&quot; minversion=&quot;0.0.0.0&quot; /&gt;&lt;gpuitem2 pnpdevidre=&quot;SUBSYS.*1043&quot; /&gt;&lt;smbios manufacturerre=&quot;asustek&quot; /&gt;&lt;/config&gt;" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT2COUNT" value="4" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT2" value="1|XSplit has detected that a modified system file &quot;DSound.dll&quot; has been placed in &quot;{0}&quot; directory. The file description is &quot;{1}&quot;. This modification will cause XSplit to crash or become unstable. &#xD;&#xA;&#xD;&#xA;Allow XSplit to fix this problem by renaming &quot;{0}\DSound.dll&quot;?&#xD;&#xA; (This will only affect the program that placed the file there and not Flash)|%windir%\system32\Macromed\Flash\DSound.dll" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT2EX" value="File|Rename|1" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT21" value="1|A problem occurred and the application cannot continue. Please delete the registry key below and run XSplit again.&#xD;&#xA;&#xD;&#xA;{1}&#xD;&#xA;&#xD;&#xA;For further guidance refer to [this](https://xspl.it/gc/qwkx8h) blog post.|HKEY_CLASSES_ROOT\CLSID\{E436EBB3-524F-11CE-9F53-0020AF0BA770}\TreatAs" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT21EX" value="ComObject|Notify|0" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT22" value="1|XSplit has detected module &quot;DirectShowSpy.dll&quot; in your system which will cause unstability to programs where its loaded into.&#xD;&#xA;&#xD;&#xA;{1}&#xD;&#xA;&#xD;&#xA;Allow XSplit to fix this problem by unregistering &quot;{0}\DirectShowSpy.dll&quot;?|DirectShowSpy.dll:ew" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT22EX" value="Module|Unregister|1" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT23" value="1|XSplit has detected BitDefender module hook which has been known to cause crash/freeze in XSplit.&#xD;&#xA;&#xD;&#xA;It is advised to add the XSplit application to BitDefender exclusion or disable BitDefender before continuing to run XSplit. For further guidance refer to [this](https://xspl.it/awvs51) blog post.&#xD;&#xA;&#xD;&#xA;Continue anyway?|a[tv]cuf32.dll:re" />
+      <add key="CHECKBCSTARTUPPROGCOMPAT23EX" value="ModuleSelf|Continue|1" />
+      <add key="CHECKBCPOSTSTARTUPPROGCOMPAT2COUNT" value="1" />
+      <add key="CHECKBCPOSTSTARTUPPROGCOMPAT2" value="1|XSplit has detected module &quot;DirectShowSpy-Win32.dll&quot; in your system which will cause unstability to programs where its loaded into.&#xD;&#xA;&#xD;&#xA;{1}&#xD;&#xA;&#xD;&#xA;Allow XSplit to fix this problem by unregistering &quot;{0}\DirectShowSpy-Win32.dll&quot;?|DirectShowSpy-Win32.dll:ew" />
+      <add key="CHECKBCPOSTSTARTUPPROGCOMPAT2EX" value="Module|Unregister|1" />
+      <add key="CEFDISABLEGPUCONFIG" value="&lt;config /&gt;" />
+      <add key="HANDLEWIN81PMSCALINGCONFIG" value="&lt;config&gt;&lt;os minversion=&quot;6.3&quot; /&gt;&lt;cef maxversion=&quot;3.1750.1805&quot; /&gt;&lt;/config&gt;" />
+      <add key="HANDLEWIN81PMSCALING2CONFIG" minversion="2.7.1511.2501" value="&lt;config&gt;&lt;os minversion=&quot;6.3&quot; /&gt;&lt;cef maxversion=&quot;3.2171.2069&quot; /&gt;&lt;/config&gt;" />
+      <add key="HANDLEWIN81PMSCALING2CONFIG" value="&lt;config&gt;&lt;os minversion=&quot;6.3&quot; /&gt;&lt;cef /&gt;&lt;/config&gt;" />
+      <add key="CEFDISABLEGPUIFMAINMONITORISINTEL" minversion="2.7.1511.2501" value="0" />
+      <add key="CANRUNWITHBROADCASTERMINMAX" value="2.3.1504.2402|" />
+      <add key="YOUTUBE60FPS" value="1" />
+      <add key="P:EXPERIMENTAL:ELGATOM2TS" value="1" />
+      <add key="ELGATOLIVECLOCKSYNC" value="0" />
+      <add key="CONSOLEDELAY2ELGATO" value="550" />
+      <add key="DONTFORCEDINVALIDATE" value="TheEscapists_eur.exe|EscapeDeadIsland.exe|fsx.exe|hellyeah.exe|spooky.exe|ddda.exe|kshootmania.exe|Stardew Valley.exe|payday2_win32_release.exe|BlackDesert.exe|BlackDesert64.exe|DungeonMans.exe" />
+      <add key="DONTFORCEDINVALIDATE2" value="TheEscapists_eur.exe|EscapeDeadIsland.exe|fsx.exe|hellyeah.exe|spooky.exe|ddda.exe|kshootmania.exe|Stardew Valley.exe|payday2_win32_release.exe|BlackDesert.exe|BlackDesert64.exe|DungeonMans.exe" />
+      <add key="EXTRACONFIGSTREAMCUSTOM" minversion="3.3.1802.0801" value="\rtmp_auth:none" />
+      <add key="EXTRACONFIGSTREAMCUSTOM" value="\\rtmp_auth:none" />
+      <add key="STREAMSTATUSMAXTIME" value="LIVESTARTING:180|TESTSTARTING:180" />
+      <add key="ENABLEUSEVCE2CONFIG" value="&lt;config&gt;&lt;item minversion=&quot;14.501.1003.0&quot;/&gt;&lt;os/&gt;&lt;/config&gt;" />
+      <add key="ALLOWAUTORUNONWINLOGIN2" value="1" />
+      <add key="ALLOWSTARTMINIMIZED" value="1" />
+      <add key="ENABLEUSENVENCHW" value="0" />
+      <add key="ENABLEUSENVENCHW2" minversion="2.8.1605.2334" value="0" />
+      <add key="ENABLEUSENVENCHW2" value="1"  />
+      <add key="ENABLEUSENVENCHWCONFIG" minversion="3.4.0.0" value="&lt;config&gt;&lt;item/&gt;&lt;os bit64=&quot;1&quot;/&gt;&lt;/config&gt;" />
+      <add key="ENABLEUSENVENCHWCONFIG" minversion="2.8.1605.2334" value="&lt;config/&gt;" config="&lt;config&gt;&lt;gpu&gt;&lt;item pnpdevidre=&quot;VEN_10DE&quot; ismobile=&quot;1&quot; /&gt;&lt;/gpu&gt;&lt;/config&gt;" />
+      <add key="ENABLEUSENVENCHWCONFIG" minversion="2.8.1605.2334" value="&lt;config&gt;&lt;item/&gt;&lt;os bit64=&quot;1&quot;/&gt;&lt;/config&gt;" />
+      <add key="CANRECONFIGCODEC" value="libx264ext" />
+      <add key="GAPITYPESCORES" value="DX11:1" />
+      <add key="ENABLEUSEQS2VCODEC" value="1" />
+      <add key="ENABLEUSEGC550INCONSOLE" value="1" />
+      <add key="CONSOLEVIEWERSUPPORTEDDEVICES" minversion="3.1.1708.2911" value="&lt;config&gt;&lt;device&gt;&lt;ids name=&quot;VID_1532&amp;amp;PID_0D0[01]&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_1164&amp;amp;PID_F530&quot; type=&quot;pnpdeviceid&quot; extra=&quot;yuan&amp;amp;propguid=d1e5209f-68fd-4529-bee0-5e7a1f47921f&amp;amp;addaudio=1&amp;amp;frametime=166667&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VEN_1AF2&amp;amp;DEV_A001&quot; type=&quot;pnpdeviceid&quot; extra=&quot;yuan&amp;amp;propguid=d1e5209f-68fd-4529-bee0-5e7a1f479221&amp;amp;addaudio=1&amp;amp;frametime=166667&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_1164&amp;amp;PID_F5A1&quot; type=&quot;pnpdeviceid&quot; extra=&quot;yuan&amp;amp;propguid=d1e5209f-68fd-4529-bee0-5e7a1f479221&amp;amp;addaudio=1&amp;amp;setresolution=1&amp;amp;subtype=34363248-0000-0010-8000-00aa00389b71&amp;amp;frametime=166667&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_2040&amp;amp;PID_F810&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;vid_2040&amp;amp;pid_49(0[0-3]|8[0-3])&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;vid_2040&amp;amp;pid_e5(0[45]|1[45]|54)&quot; type=&quot;pnpdeviceid&quot; extra=&quot;cbsetrefresh=1&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In SPDIF&quot; type=&quot;Video_YRYBY&quot; extra=&quot;cbaudio=Audio_SPDIFDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; extra=&quot;cbaudio=Audio_Line&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;vid_2040&amp;amp;pid_e5(0[012a]|2[4c5])&quot; type=&quot;pnpdeviceid&quot; extra=&quot;cbsetrefresh=1&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;vid_2040&amp;amp;pid_f800&quot; type=&quot;pnpdeviceid&quot; extra=&quot;cbaudiorefresh=1&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_ParallelDigital&quot; extra=&quot;cbaudio=Audio_SPDIFDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; extra=&quot;cbaudio=Audio_Line&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;avermedia&quot; type=&quot;name&quot; /&gt;&lt;ids name=&quot;C985&quot; type=&quot;name&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;avermedia&quot; type=&quot;name&quot; /&gt;&lt;ids name=&quot;C875&quot; type=&quot;name&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; extra=&quot;cbaudio=Audio_SPDIFDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_RGB&quot; extra=&quot;cbaudio=Audio_Line&amp;amp;cbaudioindex=4&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;avermedia&quot; type=&quot;name&quot; /&gt;&lt;ids name=&quot;C877&quot; type=&quot;name&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;avermedia&quot; type=&quot;name&quot; /&gt;&lt;ids name=&quot;U3&quot; type=&quot;name&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;avermedia&quot; type=&quot;name&quot; /&gt;&lt;ids name=&quot;GC550&quot; type=&quot;name&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;!--Live Gamer Portable 2 including Plus version--&gt;&lt;ids name=&quot;VID_07CA&quot; type=&quot;pnpdeviceid&quot; extra=&quot;addaudio=1&quot; /&gt;&lt;ids name=&quot;Live Gamer Portable 2&quot; type=&quot;name&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;!--Live Gamer HD 2--&gt;&lt;ids name=&quot;VID_07CA&quot; type=&quot;pnpdeviceid&quot; extra=&quot;addaudio=1&amp;amp;audionamere=Digital%20Audio%20Interface&amp;amp;minresolution=1920,1080&amp;amp;subtype=32595559-0000-0010-8000-00AA00389B71&quot; /&gt;&lt;ids name=&quot;Live Gamer HD 2&quot; type=&quot;name&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;AVermedia LGHD Stream Engine&quot; type=&quot;name&quot; extra=&quot;addaudio=1&amp;amp;audioname2re=Avermedia%20LGHD%20Audio%20Stream%20Engine\(Digital%20Audio%20Interface\)&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;AVermedia LGP2 (Plus )?Stream Engine&quot; type=&quot;name&quot; extra=&quot;addaudio=1&amp;amp;audioname2re=Avermedia%20LGP2%20(Plus%20)%3FAudio%20Stream%20Engine&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;!--Elgato Game Capture 4K60 Pro--&gt;&lt;ids name=&quot;VEN_12AB&amp;amp;DEV_0371&quot; type=&quot;pnpdeviceid&quot; extra=&quot;addaudio=1&amp;amp;checkassocaudio=0&amp;amp;audioid2re=VEN_12AB%26DEV_0371&amp;amp;ignoreGenElgato=1&quot; /&gt;&lt;/device&gt;&lt;/config&gt;" />
+      <add key="CONSOLEVIEWERSUPPORTEDDEVICES" minversion="2.7.1602.1101" value="&lt;config&gt;&lt;device&gt;&lt;ids name=&quot;VID_1532&amp;amp;PID_0D00&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_1164&amp;amp;PID_F530&quot; type=&quot;pnpdeviceid&quot; extra=&quot;yuan&amp;amp;propguid=d1e5209f-68fd-4529-bee0-5e7a1f47921f&amp;amp;addaudio=1&amp;amp;frametime=166667&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VEN_1AF2&amp;amp;DEV_A001&quot; type=&quot;pnpdeviceid&quot; extra=&quot;yuan&amp;amp;propguid=d1e5209f-68fd-4529-bee0-5e7a1f479221&amp;amp;addaudio=1&amp;amp;frametime=166667&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_1164&amp;amp;PID_F5A1&quot; type=&quot;pnpdeviceid&quot; extra=&quot;yuan&amp;amp;propguid=d1e5209f-68fd-4529-bee0-5e7a1f479221&amp;amp;addaudio=1&amp;amp;setresolution=1&amp;amp;subtype=34363248-0000-0010-8000-00aa00389b71&amp;amp;frametime=166667&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_2040&amp;amp;PID_F810&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;vid_2040&amp;amp;pid_49(0[0-3]|8[0-3])&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;vid_2040&amp;amp;pid_e5(0[45]|1[45]|54)&quot; type=&quot;pnpdeviceid&quot; extra=&quot;cbsetrefresh=1&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In SPDIF&quot; type=&quot;Video_YRYBY&quot; extra=&quot;cbaudio=Audio_SPDIFDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; extra=&quot;cbaudio=Audio_Line&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;vid_2040&amp;amp;pid_e5(0[012a]|2[4c5])&quot; type=&quot;pnpdeviceid&quot; extra=&quot;cbsetrefresh=1&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;vid_2040&amp;amp;pid_f800&quot; type=&quot;pnpdeviceid&quot; extra=&quot;cbaudiorefresh=1&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_ParallelDigital&quot; extra=&quot;cbaudio=Audio_SPDIFDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; extra=&quot;cbaudio=Audio_Line&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;avermedia&quot; type=&quot;name&quot; /&gt;&lt;ids name=&quot;C985&quot; type=&quot;name&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;avermedia&quot; type=&quot;name&quot; /&gt;&lt;ids name=&quot;C875&quot; type=&quot;name&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; extra=&quot;cbaudio=Audio_SPDIFDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_RGB&quot; extra=&quot;cbaudio=Audio_Line&amp;amp;cbaudioindex=4&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;avermedia&quot; type=&quot;name&quot; /&gt;&lt;ids name=&quot;C877&quot; type=&quot;name&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;avermedia&quot; type=&quot;name&quot; /&gt;&lt;ids name=&quot;U3&quot; type=&quot;name&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;avermedia&quot; type=&quot;name&quot; /&gt;&lt;ids name=&quot;GC550&quot; type=&quot;name&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;/config&gt;" />
+      <add key="CONSOLEVIEWERSUPPORTEDDEVICES" minversion="2.7.1511.1601" value="&lt;config&gt;&lt;device&gt;&lt;ids name=&quot;VID_1532&amp;amp;PID_0D00&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_1164&amp;amp;PID_F530&quot; type=&quot;pnpdeviceid&quot; extra=&quot;yuan&amp;amp;propguid=d1e5209f-68fd-4529-bee0-5e7a1f47921f&amp;amp;addaudio=1&amp;amp;frametime=166667&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VEN_1AF2&amp;amp;DEV_A001&quot; type=&quot;pnpdeviceid&quot; extra=&quot;yuan&amp;amp;propguid=d1e5209f-68fd-4529-bee0-5e7a1f479221&amp;amp;addaudio=1&amp;amp;frametime=166667&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_1164&amp;amp;PID_F5A1&quot; type=&quot;pnpdeviceid&quot; extra=&quot;yuan&amp;amp;propguid=d1e5209f-68fd-4529-bee0-5e7a1f479221&amp;amp;addaudio=1&amp;amp;setresolution=1&amp;amp;subtype=34363248-0000-0010-8000-00aa00389b71&amp;amp;frametime=166667&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_2040&amp;amp;PID_F810&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;/device&gt;&lt;/config&gt;" />
+      <add key="CONSOLEVIEWERSUPPORTEDDEVICES" minversion="2.7.1511.1201" value="&lt;config&gt;&lt;device&gt;&lt;ids name=&quot;VID_1532&amp;amp;PID_0D00&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_1164&amp;amp;PID_F530&quot; type=&quot;pnpdeviceid&quot; extra=&quot;yuan&amp;amp;propguid=d1e5209f-68fd-4529-bee0-5e7a1f47921f&amp;amp;addaudio=1&amp;amp;frametime=166667&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VEN_1AF2&amp;amp;DEV_A001&quot; type=&quot;pnpdeviceid&quot; extra=&quot;yuan&amp;amp;propguid=d1e5209f-68fd-4529-bee0-5e7a1f479221&amp;amp;addaudio=1&amp;amp;frametime=166667&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_1164&amp;amp;PID_F5A1&quot; type=&quot;pnpdeviceid&quot; extra=&quot;yuan&amp;amp;propguid=d1e5209f-68fd-4529-bee0-5e7a1f479221&amp;amp;addaudio=1&amp;amp;setresolution=1&amp;amp;subtype=34363248-0000-0010-8000-00aa00389b71&amp;amp;frametime=166667&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; /&gt;&lt;/device&gt;&lt;/config&gt;" />
+      <add key="CONSOLEVIEWERSUPPORTEDDEVICES" minversion="2.6.1511.0901" value="&lt;config&gt;&lt;device&gt;&lt;ids name=&quot;VID_1532&amp;amp;PID_0D00&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_1164&amp;amp;PID_F530&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f47921f&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f47921f&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f47921f&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f47921f&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f47921f&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f47921f&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f47921f&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VEN_1AF2&amp;amp;DEV_A001&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;/device&gt;&lt;device&gt;&lt;ids name=&quot;VID_1164&amp;amp;PID_F5A1&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;0&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;types name=&quot;DVI-Digital&quot; type=&quot;1&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;types name=&quot;Components (YCbCr)&quot; type=&quot;2&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;types name=&quot;DVI-Analog (RGB) (VGA)&quot; type=&quot;3&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;types name=&quot;SDI&quot; type=&quot;4&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;types name=&quot;Composite&quot; type=&quot;5&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;types name=&quot;S-Video&quot; type=&quot;6&quot; extra=&quot;yuan|d1e5209f-68fd-4529-bee0-5e7a1f479221&quot; /&gt;&lt;/device&gt;&lt;/config&gt;" />
+      <add key="CONSOLEVIEWERSUPPORTEDDEVICES" value="&lt;config&gt;&lt;device&gt;&lt;ids name=&quot;VID_1532&amp;amp;PID_0D00&quot; type=&quot;pnpdeviceid&quot; /&gt;&lt;types name=&quot;HDMI&quot; type=&quot;Video_SerialDigital&quot; /&gt;&lt;types name=&quot;A/V In&quot; type=&quot;Video_YRYBY&quot; /&gt;&lt;/device&gt;&lt;/config&gt;" />
+      <add key="GAMESURFSHARINGDISABLEONSLIXFIRE" minversion="2.6.1511.1001" value="0" />
+      <add key="P:ENABLEEVRHWCAP" value="1" />
+      <add key="ALLOWENDURODGPU" value="1" osminversion="10.0.0.0" osmaxversion="99.99.9999.9999" />
+      <add key="ENABLESOCIALLOGIN" value="1" />
+      <add key="EYETRACKERDEVICEIDS" value="&lt;config classguid=&quot;78a1c341-4539-11d3-b88d-00c04fad5171&quot;&gt;&lt;device id=&quot;VID_2104&quot; /&gt;&lt;/config&gt;" />
+      <add key="EYETRACKERHWNOTOKSTATUS" value="notAvailable|invalidConfiguration|notConnected|unknownError|connectionError" />
+      <add key="CAPTUREWPFREALGAME" value="DyingLightGame.exe" />
+      <add key="ELGATOGCHD60REGEX" value="(VEN_12AB&amp;DEV_03(80|71))|(VID_0FD9&amp;PID_00(5c|4f|5e))" />
+      <add key="MSIHOTKEYPRODUCTLIST" value="&lt;config&gt;&lt;item name=&quot;MS-1781&quot; /&gt;&lt;item name=&quot;GT72 2PE Dominator Pro&quot; /&gt;&lt;item name=&quot;GT72 2PC Dominator&quot; /&gt;&lt;item name=&quot;GT72 2PE&quot; /&gt;&lt;item name=&quot;GT72 2PC&quot; /&gt;&lt;item name=&quot;GT72 2QE&quot; /&gt;&lt;item name=&quot;GT72 2QD&quot; /&gt;&lt;item name=&quot;GT72VR 6RD&quot; /&gt;&lt;item name=&quot;GT72VR 6RE&quot; /&gt;&lt;item name=&quot;GT62VR 6RD&quot; /&gt;&lt;item name=&quot;GT62VR 6RE&quot; /&gt;&lt;item name=&quot;GT83VR 6RE&quot; /&gt;&lt;item name=&quot;GT83VR 6RF&quot; /&gt;&lt;item name=&quot;GT73VR 6RE&quot; /&gt;&lt;item name=&quot;GT73VR 6RF&quot; /&gt;&lt;item name=&quot;GT72S 6QF&quot; /&gt;&lt;item name=&quot;GT72 6QD&quot; /&gt;&lt;item name=&quot;GT72 6QE&quot; /&gt;&lt;item name=&quot;GT72S 6QD&quot; /&gt;&lt;item name=&quot;GT72S 6QE&quot; /&gt;&lt;item name=&quot;GT72VR 7RD&quot; /&gt;&lt;item name=&quot;GT72VR 7RE&quot; /&gt;&lt;item name=&quot;GT73VR 7RF&quot; /&gt;&lt;item name=&quot;GT73VR 7RE&quot; /&gt;&lt;item name=&quot;GT62VR 7RD&quot; /&gt;&lt;item name=&quot;GT62VR 7RE&quot; /&gt;&lt;item name=&quot;GT83VR 7RE&quot; /&gt;&lt;item name=&quot;GT83VR 7RF&quot; /&gt;&lt;item name=&quot;GT73EVR 7RE&quot; /&gt;&lt;item name=&quot;GT73EVR 7RD&quot; /&gt;&lt;item name=&quot;GT75VR 7RF&quot; /&gt;&lt;item name=&quot;GT75VR 7RE&quot; /&gt;&lt;item name=&quot;GT73EVR 7RF&quot; /&gt;&lt;item name=&quot;GS63 7RD&quot; /&gt;&lt;item name=&quot;GT75 Titan 8RF&quot; /&gt;&lt;item name=&quot;GT75 Titan 8RG&quot; /&gt;&lt;item name=&quot;GT63 Titan 8RG&quot; /&gt;&lt;item name=&quot;GT63 Titan 8RF&quot; /&gt;&lt;item name=&quot;GT63 Titan 8RE&quot; /&gt;&lt;item name=&quot;GT83 8RF&quot; /&gt;&lt;item name=&quot;GT83 8RG&quot; /&gt;&lt;/config&gt;" />
+      <add key="IMELAYOUTIDS" value="&lt;config&gt;&lt;item id=&quot;67699721&quot; name=&quot;US - US&quot; /&gt;&lt;item id=&quot;-268303351&quot; name=&quot;US - United States-Dvorak&quot; /&gt;&lt;item id=&quot;-266730487&quot; name=&quot;United States-Dvorak left&quot; /&gt;&lt;item id=&quot;-266664951&quot; name=&quot;US - United States-Dvorak right&quot; /&gt;&lt;item id=&quot;-268368887&quot; name=&quot;US - United States-International&quot; /&gt;&lt;item id=&quot;68551702&quot; name=&quot;BR - Portuguese (Brazilian ABNT)&quot; /&gt;&lt;item id=&quot;-267385834&quot; name=&quot;BR - Portuguese (Brazilian ABNT2)&quot; /&gt;&lt;item id=&quot;67568647&quot; name=&quot;DE - German&quot; /&gt;&lt;item id=&quot;-267254777&quot; name=&quot;DE - German (IBM)&quot; /&gt;&lt;item id=&quot;67765258&quot; name=&quot;ES - Spanish&quot; /&gt;&lt;item id=&quot;-259652598&quot; name=&quot;ES - Spanish Variation&quot; /&gt;&lt;item id=&quot;67896332&quot; name=&quot;FR - French&quot; /&gt;&lt;item id=&quot;68224017&quot; name=&quot;JP - Japanese&quot; /&gt;&lt;item id=&quot;68748313&quot; name=&quot;RU - Russian&quot; /&gt;&lt;item id=&quot;-267910119&quot; name=&quot;Russian (Typewriter)&quot; /&gt;&lt;item id=&quot;68748356&quot; name=&quot;RU - Tatar&quot; /&gt;&lt;item id=&quot;68289554&quot; name=&quot;KR - 2 Beolsik&quot; /&gt;&lt;item id=&quot;67699737&quot; name=&quot;RU - Russian_Qwerty&quot; /&gt;&lt;item id=&quot;134481924&quot; name=&quot;CN - Chinese Simpl. Pinyin&quot; /&gt;&lt;item id=&quot;67372036&quot; name=&quot;CN - Chinese Trad. Pinyin&quot; /&gt;&lt;/config&gt;" />
+      <add key="USEDX12" value="1" osminversion="10.0.14393.0" />
+      <add key="ENABLEUSEDX12" value="1" osminversion="10.0.14393.0" />
+      <add key="MFPPATCHLIST" value="KB4057437|KB4039813|KB4016817|KB3133719|KB3010081|KB3099229|KB3124262|KB3124263" osminversion="10.0.17134.0" />
+      <add key="MFPPATCHLIST" value="KB4039813|KB4016817|KB3133719|KB3010081|KB3099229|KB3124262|KB3124263" osminversion="10.0.16299.0" />
+      <add key="MFPPATCHLIST" value="KB4016817|KB3133719|KB3010081|KB3099229|KB3124262|KB3124263" osminversion="10.0.15063.0" />
+      <add key="MFPPATCHLIST" value="KB3133719|KB3010081|KB3099229|KB3124262|KB3124263" osminversion="10.0" />
+      <add key="MFPPATCHLIST" value="KB2835517|KB2929699" osminversion="6.3" />
+      <add key="MFPPATCHLIST" value="KB2703761" osminversion="6.2" />
+      <add key="MFPPATCHLIST" value="KB968211" osminversion="6.1" />
+      <add key="MFPPATCHLINK" value="KB4057437" osminversion="10.0.17134.0" />
+      <add key="MFPPATCHLINK" value="KB4039813" osminversion="10.0.16299.0" />
+      <add key="MFPPATCHLINK" value="KB4016817" osminversion="10.0.15063.0" />
+      <add key="MFPPATCHLINK" value="KB3133719" osminversion="10.0" />
+      <add key="MFPPATCHLINK" value="KB2835517" osminversion="6.3" />
+      <add key="MFPPATCHLINK" value="KB2703761" osminversion="6.2" />
+      <add key="MFPPATCHLINK" value="KB968211" osminversion="6.1" />
+      <add key="SUPPORTPREMULTIPLIEDALPHA" value="1" minversion="2.9.1701.1609" />
+      <add key="APPSTOREAUTOINJECTEXCLUDEDEXENAMES" value="WinStore.Mobile.exe|SkypeHost.exe|WinStore.App.exe|Video.UI.exe|YourPhone.exe|Microsoft.Photos.exe" />
+      <!--<add key="CEFDISABLEGPU" value="1" config="&lt;config&gt;&lt;gpu&gt;&lt;item pnpdevidre=&quot;VEN_10DE&quot; ismobile=&quot;1&quot; namere=&quot;gtx 10[0-9]{2}&quot; /&gt;&lt;item pnpdevicere=&quot;VEN_8086&quot; minversion=&quot;22.0.0.0&quot; /&gt;&lt;/gpu&gt;&lt;monitor&gt;&lt;item idre=&quot;VEN_10DE&quot; flag=&quot;4&quot; /&gt;&lt;/monitor&gt;&lt;broadcaster&gt;&lt;item key=&quot;gfx&quot; valuere=&quot;^(?!intel)\w*$&quot; /&gt;&lt;/broadcaster&gt;&lt;/config&gt;" />-->
+      <add key="LOGSYSINFO2REMOTEURL" value="serviceapi/2/log/system_information" minversion="3.0.1708.2918" />
+      <add key="GAMEDLLLIST" value="d3d8.dll|d3d9.dll|dxgi.dll|opengl32.dll" />
+      <add key="GETGAMEFINGERPRINT" value="0" />
+      <add key="GETGAMEFINGERPRINT2" value="0" />
+      <add key="FACEBOOKAPIVERSION" value="v2.11" minversion="3.3.1805.0402"  />
+      <add key="FACEBOOKSCOPES" value="publish_video|user_posts" minversion="3.4.1812.0307"  />
+      <add key="FACEBOOKSCOPES" value="publish_video|publish_actions|user_posts" minversion="3.3.1805.0402"  />
+      <add key="FACEBOOKLIVESCOPES" value="publish_video|user_posts|manage_pages|publish_pages|user_videos" minversion="3.3.1805.0402"  />
+      <add key="MEDIALIBFLUSHFIX" value="1" config="&lt;config&gt;&lt;gpu&gt;&lt;item pnpdevidre=&quot;VEN_10DE&quot; ismobile=&quot;1&quot; /&gt;&lt;/gpu&gt;&lt;/config&gt;" />
+      <add key="MEDIALIBFLUSHFIX" value="0" />
+      <add key="SOCIALLOGINWINPARAM" value="resize=0&amp;maximize=0&amp;startPosPerParent=1&amp;handlePopupInOwnWindow=1&amp;popupWidth=500&amp;popupHeight=645&amp;" />
+      <add key="FBLIVEUSERTMPS" value="1" minversion="3.4.1812.0304" />
+    </appSettings>
+    <gsRenderFix>
+      <game name="Archeblade.exe" value="1" />
+    </gsRenderFix>
+    <gsInject>
+      <game name="StreetFighterV" bitness="2" dllLookup="d3d8.dll|d3d9.dll|dxgi.dll|opengl32.dll|fraps64.dll|XSplitGameSource64.dll" />
+      <!--<game name="DeadByDaylight-Win64-Shipping" bitness="2" dllLookup="d3d8.dll|d3d9.dll|dxgi.dll|opengl32.dll|fraps64.dll|XSplitGameSource64.dll" injectOnReadError="1" dllInject="XSplitGameSource64.dll|fraps64.dll" maxTryCount="1" minversion="2.8.1607.1901" />-->
+    </gsInject>
+  </gamecaster>
+  <xsplit>
+    <enableamdoptogl>
+      <minver>13.9</minver>
+    </enableamdoptogl>
+    <quicksync>
+      <supportedProcessors>
+        <supportedProcessor>2957U</supportedProcessor>
+        <supportedProcessor>2961Y</supportedProcessor>
+        <supportedProcessor>2970M</supportedProcessor>
+        <supportedProcessor>2981U</supportedProcessor>
+        <supportedProcessor>3558U</supportedProcessor>
+        <supportedProcessor>3560M</supportedProcessor>
+        <supportedProcessor>3561Y</supportedProcessor>
+        <supportedProcessor>5Y10</supportedProcessor>
+        <supportedProcessor>5Y10a</supportedProcessor>
+        <supportedProcessor>5Y70</supportedProcessor>
+        <supportedProcessor>E3-1225</supportedProcessor>
+        <supportedProcessor>E3-1225V2</supportedProcessor>
+        <supportedProcessor>E3-1225V3</supportedProcessor>
+        <supportedProcessor>E3-1226V3</supportedProcessor>
+        <supportedProcessor>E3-1235</supportedProcessor>
+        <supportedProcessor>E3-1245 v3</supportedProcessor>
+        <supportedProcessor>E3-1245</supportedProcessor>
+        <supportedProcessor>E3-1245V2</supportedProcessor>
+        <supportedProcessor>E3-1246V3</supportedProcessor>
+        <supportedProcessor>E3-1260L</supportedProcessor>
+        <supportedProcessor>E3-1265LV2</supportedProcessor>
+        <supportedProcessor>E3-1265Lv3</supportedProcessor>
+        <supportedProcessor>E3-1268LV3</supportedProcessor>
+        <supportedProcessor>E3-1275 v3</supportedProcessor>
+        <supportedProcessor>E3-1275</supportedProcessor>
+        <supportedProcessor>E3-1275LV3</supportedProcessor>
+        <supportedProcessor>E3-1275V2</supportedProcessor>
+        <supportedProcessor>E3-1276V3</supportedProcessor>
+        <supportedProcessor>E3-1285 v3</supportedProcessor>
+        <supportedProcessor>E3-1285Lv3</supportedProcessor>
+        <supportedProcessor>E3-1286LV3</supportedProcessor>
+        <supportedProcessor>E3-1286V3</supportedProcessor>
+        <supportedProcessor>E3815</supportedProcessor>
+        <supportedProcessor>E3825</supportedProcessor>
+        <supportedProcessor>E3826</supportedProcessor>
+        <supportedProcessor>E3827</supportedProcessor>
+        <supportedProcessor>E3845</supportedProcessor>
+        <supportedProcessor>G1820</supportedProcessor>
+        <supportedProcessor>G1820T</supportedProcessor>
+        <supportedProcessor>G1820TE</supportedProcessor>
+        <supportedProcessor>G1830</supportedProcessor>
+        <supportedProcessor>G1840</supportedProcessor>
+        <supportedProcessor>G1840T</supportedProcessor>
+        <supportedProcessor>G1850</supportedProcessor>
+        <supportedProcessor>G3220</supportedProcessor>
+        <supportedProcessor>G3220T</supportedProcessor>
+        <supportedProcessor>G3240</supportedProcessor>
+        <supportedProcessor>G3240T</supportedProcessor>
+        <supportedProcessor>G3250</supportedProcessor>
+        <supportedProcessor>G3250T</supportedProcessor>
+        <supportedProcessor>G3258</supportedProcessor>
+        <supportedProcessor>G3320TE</supportedProcessor>
+        <supportedProcessor>G3420</supportedProcessor>
+        <supportedProcessor>G3420T</supportedProcessor>
+        <supportedProcessor>G3430</supportedProcessor>
+        <supportedProcessor>G3440</supportedProcessor>
+        <supportedProcessor>G3440T</supportedProcessor>
+        <supportedProcessor>G3450</supportedProcessor>
+        <supportedProcessor>G3450T</supportedProcessor>
+        <supportedProcessor>G3460</supportedProcessor>
+        <supportedProcessor>i3-2100</supportedProcessor>
+        <supportedProcessor>i3-2100T</supportedProcessor>
+        <supportedProcessor>i3-2102</supportedProcessor>
+        <supportedProcessor>i3-2105</supportedProcessor>
+        <supportedProcessor>i3-2105</supportedProcessor>
+        <supportedProcessor>i3-2120</supportedProcessor>
+        <supportedProcessor>i3-2120T</supportedProcessor>
+        <supportedProcessor>i3-2125</supportedProcessor>
+        <supportedProcessor>i3-2130</supportedProcessor>
+        <supportedProcessor>i3-2310E</supportedProcessor>
+        <supportedProcessor>i3-2310E</supportedProcessor>
+        <supportedProcessor>i3-2310M</supportedProcessor>
+        <supportedProcessor>i3-2312M</supportedProcessor>
+        <supportedProcessor>i3-2328M</supportedProcessor>
+        <supportedProcessor>i3-2330E</supportedProcessor>
+        <supportedProcessor>i3-2330M</supportedProcessor>
+        <supportedProcessor>i3-2340UE</supportedProcessor>
+        <supportedProcessor>i3-2348M</supportedProcessor>
+        <supportedProcessor>i3-2350M</supportedProcessor>
+        <supportedProcessor>i3-2357M</supportedProcessor>
+        <supportedProcessor>i3-2365M</supportedProcessor>
+        <supportedProcessor>i3-2367M</supportedProcessor>
+        <supportedProcessor>i3-2370M</supportedProcessor>
+        <supportedProcessor>i3-2375M</supportedProcessor>
+        <supportedProcessor>i3-2377M</supportedProcessor>
+        <supportedProcessor>i3-3110M</supportedProcessor>
+        <supportedProcessor>i3-3120M</supportedProcessor>
+        <supportedProcessor>i3-3120ME</supportedProcessor>
+        <supportedProcessor>i3-3130M</supportedProcessor>
+        <supportedProcessor>i3-3210</supportedProcessor>
+        <supportedProcessor>i3-3217U</supportedProcessor>
+        <supportedProcessor>i3-3217UE</supportedProcessor>
+        <supportedProcessor>i3-3220</supportedProcessor>
+        <supportedProcessor>i3-3220T</supportedProcessor>
+        <supportedProcessor>i3-3225</supportedProcessor>
+        <supportedProcessor>i3-3227U</supportedProcessor>
+        <supportedProcessor>i3-3229Y</supportedProcessor>
+        <supportedProcessor>i3-3240</supportedProcessor>
+        <supportedProcessor>i3-3240T</supportedProcessor>
+        <supportedProcessor>i3-3245</supportedProcessor>
+        <supportedProcessor>i3-3250</supportedProcessor>
+        <supportedProcessor>i3-3250T</supportedProcessor>
+        <supportedProcessor>i3-4000M</supportedProcessor>
+        <supportedProcessor>i3-4005U</supportedProcessor>
+        <supportedProcessor>i3-4010U</supportedProcessor>
+        <supportedProcessor>i3-4010Y</supportedProcessor>
+        <supportedProcessor>i3-4012Y</supportedProcessor>
+        <supportedProcessor>i3-4020Y</supportedProcessor>
+        <supportedProcessor>i3-4025U</supportedProcessor>
+        <supportedProcessor>i3-4030U</supportedProcessor>
+        <supportedProcessor>i3-4030Y</supportedProcessor>
+        <supportedProcessor>i3-4100E</supportedProcessor>
+        <supportedProcessor>i3-4100M</supportedProcessor>
+        <supportedProcessor>i3-4100U</supportedProcessor>
+        <supportedProcessor>i3-4102E</supportedProcessor>
+        <supportedProcessor>i3-4110E</supportedProcessor>
+        <supportedProcessor>i3-4110M</supportedProcessor>
+        <supportedProcessor>i3-4112E</supportedProcessor>
+        <supportedProcessor>i3-4120U</supportedProcessor>
+        <supportedProcessor>i3-4130</supportedProcessor>
+        <supportedProcessor>i3-4130T</supportedProcessor>
+        <supportedProcessor>i3-4150</supportedProcessor>
+        <supportedProcessor>i3-4150T</supportedProcessor>
+        <supportedProcessor>i3-4158U</supportedProcessor>
+        <supportedProcessor>i3-4160</supportedProcessor>
+        <supportedProcessor>i3-4160T</supportedProcessor>
+        <supportedProcessor>i3-4330</supportedProcessor>
+        <supportedProcessor>i3-4330T</supportedProcessor>
+        <supportedProcessor>i3-4330TE</supportedProcessor>
+        <supportedProcessor>i3-4340</supportedProcessor>
+        <supportedProcessor>i3-4340TE</supportedProcessor>
+        <supportedProcessor>i3-4350</supportedProcessor>
+        <supportedProcessor>i3-4350T</supportedProcessor>
+        <supportedProcessor>i3-4360</supportedProcessor>
+        <supportedProcessor>i3-4360T</supportedProcessor>
+        <supportedProcessor>i3-4370</supportedProcessor>
+        <supportedProcessor>i5-2300</supportedProcessor>
+        <supportedProcessor>i5-2310</supportedProcessor>
+        <supportedProcessor>i5-2320</supportedProcessor>
+        <supportedProcessor>i5-2380P</supportedProcessor>
+        <supportedProcessor>i5-2390T</supportedProcessor>
+        <supportedProcessor>i5-2400</supportedProcessor>
+        <supportedProcessor>i5-2400S</supportedProcessor>
+        <supportedProcessor>i5-2405S</supportedProcessor>
+        <supportedProcessor>i5-2410M</supportedProcessor>
+        <supportedProcessor>i5-2415M</supportedProcessor>
+        <supportedProcessor>i5-2430M</supportedProcessor>
+        <supportedProcessor>i5-2435M</supportedProcessor>
+        <supportedProcessor>i5-2450M</supportedProcessor>
+        <supportedProcessor>i5-2450P</supportedProcessor>
+        <supportedProcessor>i5-2467M</supportedProcessor>
+        <supportedProcessor>i5-2500</supportedProcessor>
+        <supportedProcessor>i5-2500K</supportedProcessor>
+        <supportedProcessor>i5-2500S</supportedProcessor>
+        <supportedProcessor>i5-2500T</supportedProcessor>
+        <supportedProcessor>i5-2510E</supportedProcessor>
+        <supportedProcessor>i5-2515E</supportedProcessor>
+        <supportedProcessor>i5-2520M</supportedProcessor>
+        <supportedProcessor>i5-2537M</supportedProcessor>
+        <supportedProcessor>i5-2540M</supportedProcessor>
+        <supportedProcessor>i5-2550K</supportedProcessor>
+        <supportedProcessor>i5-2557M</supportedProcessor>
+        <supportedProcessor>i5-3210M</supportedProcessor>
+        <supportedProcessor>i5-3210M</supportedProcessor>
+        <supportedProcessor>i5-3230M</supportedProcessor>
+        <supportedProcessor>i5-3230M</supportedProcessor>
+        <supportedProcessor>i5-3317U</supportedProcessor>
+        <supportedProcessor>i5-3320M</supportedProcessor>
+        <supportedProcessor>i5-3330</supportedProcessor>
+        <supportedProcessor>i5-3330S</supportedProcessor>
+        <supportedProcessor>i5-3337U</supportedProcessor>
+        <supportedProcessor>i5-3339Y</supportedProcessor>
+        <supportedProcessor>i5-3340</supportedProcessor>
+        <supportedProcessor>i5-3340M</supportedProcessor>
+        <supportedProcessor>i5-3340S</supportedProcessor>
+        <supportedProcessor>i5-3350P</supportedProcessor>
+        <supportedProcessor>i5-3360M</supportedProcessor>
+        <supportedProcessor>i5-3380M</supportedProcessor>
+        <supportedProcessor>i5-3427U</supportedProcessor>
+        <supportedProcessor>i5-3437U</supportedProcessor>
+        <supportedProcessor>i5-3439Y</supportedProcessor>
+        <supportedProcessor>i5-3450</supportedProcessor>
+        <supportedProcessor>i5-3450S</supportedProcessor>
+        <supportedProcessor>i5-3470</supportedProcessor>
+        <supportedProcessor>i5-3470S</supportedProcessor>
+        <supportedProcessor>i5-3470T</supportedProcessor>
+        <supportedProcessor>i5-3475S</supportedProcessor>
+        <supportedProcessor>i5-3550</supportedProcessor>
+        <supportedProcessor>i5-3550S</supportedProcessor>
+        <supportedProcessor>i5-3570</supportedProcessor>
+        <supportedProcessor>i5-3570K</supportedProcessor>
+        <supportedProcessor>i5-3570S</supportedProcessor>
+        <supportedProcessor>i5-3570T</supportedProcessor>
+        <supportedProcessor>i5-3610ME</supportedProcessor>
+        <supportedProcessor>i5-4200H</supportedProcessor>
+        <supportedProcessor>i5-4200M</supportedProcessor>
+        <supportedProcessor>i5-4200U</supportedProcessor>
+        <supportedProcessor>i5-4200Y</supportedProcessor>
+        <supportedProcessor>i5-4202Y</supportedProcessor>
+        <supportedProcessor>i5-4210H</supportedProcessor>
+        <supportedProcessor>i5-4210M</supportedProcessor>
+        <supportedProcessor>i5-4210U</supportedProcessor>
+        <supportedProcessor>i5-4210Y</supportedProcessor>
+        <supportedProcessor>i5-4220Y</supportedProcessor>
+        <supportedProcessor>i5-4250U</supportedProcessor>
+        <supportedProcessor>i5-4258U</supportedProcessor>
+        <supportedProcessor>i5-4260U</supportedProcessor>
+        <supportedProcessor>i5-4278U</supportedProcessor>
+        <supportedProcessor>i5-4288U</supportedProcessor>
+        <supportedProcessor>i5-4300M</supportedProcessor>
+        <supportedProcessor>i5-4300U</supportedProcessor>
+        <supportedProcessor>i5-4300Y</supportedProcessor>
+        <supportedProcessor>i5-4302Y</supportedProcessor>
+        <supportedProcessor>i5-4308U</supportedProcessor>
+        <supportedProcessor>i5-4310M</supportedProcessor>
+        <supportedProcessor>i5-4310U</supportedProcessor>
+        <supportedProcessor>i5-4330M</supportedProcessor>
+        <supportedProcessor>i5-4340M</supportedProcessor>
+        <supportedProcessor>i5-4350U</supportedProcessor>
+        <supportedProcessor>i5-4360U</supportedProcessor>
+        <supportedProcessor>i5-4400E</supportedProcessor>
+        <supportedProcessor>i5-4402E</supportedProcessor>
+        <supportedProcessor>i5-4410E</supportedProcessor>
+        <supportedProcessor>i5-4422E</supportedProcessor>
+        <supportedProcessor>i5-4430</supportedProcessor>
+        <supportedProcessor>i5-4430S</supportedProcessor>
+        <supportedProcessor>i5-4440</supportedProcessor>
+        <supportedProcessor>i5-4440S</supportedProcessor>
+        <supportedProcessor>i5-4460</supportedProcessor>
+        <supportedProcessor>i5-4460S</supportedProcessor>
+        <supportedProcessor>i5-4460T</supportedProcessor>
+        <supportedProcessor>i5-4570</supportedProcessor>
+        <supportedProcessor>i5-4570R</supportedProcessor>
+        <supportedProcessor>i5-4570S</supportedProcessor>
+        <supportedProcessor>i5-4570T</supportedProcessor>
+        <supportedProcessor>i5-4570TE</supportedProcessor>
+        <supportedProcessor>i5-4590</supportedProcessor>
+        <supportedProcessor>i5-4590S</supportedProcessor>
+        <supportedProcessor>i5-4590T</supportedProcessor>
+        <supportedProcessor>i5-4670</supportedProcessor>
+        <supportedProcessor>i5-4670K</supportedProcessor>
+        <supportedProcessor>i5-4670R</supportedProcessor>
+        <supportedProcessor>i5-4670S</supportedProcessor>
+        <supportedProcessor>i5-4670T</supportedProcessor>
+        <supportedProcessor>i5-4690</supportedProcessor>
+        <supportedProcessor>i5-4690K</supportedProcessor>
+        <supportedProcessor>i5-4690S</supportedProcessor>
+        <supportedProcessor>i5-4690T</supportedProcessor>
+        <supportedProcessor>i7-2600</supportedProcessor>
+        <supportedProcessor>i7-2600K</supportedProcessor>
+        <supportedProcessor>i7-2600S</supportedProcessor>
+        <supportedProcessor>i7-2610UE</supportedProcessor>
+        <supportedProcessor>i7-2617M</supportedProcessor>
+        <supportedProcessor>i7-2620M</supportedProcessor>
+        <supportedProcessor>i7-2629M</supportedProcessor>
+        <supportedProcessor>i7-2630QM</supportedProcessor>
+        <supportedProcessor>i7-2635QM</supportedProcessor>
+        <supportedProcessor>i7-2637M</supportedProcessor>
+        <supportedProcessor>i7-2640M</supportedProcessor>
+        <supportedProcessor>i7-2649M</supportedProcessor>
+        <supportedProcessor>i7-2655LE</supportedProcessor>
+        <supportedProcessor>i7-2657M</supportedProcessor>
+        <supportedProcessor>i7-2670QM</supportedProcessor>
+        <supportedProcessor>i7-2675QM</supportedProcessor>
+        <supportedProcessor>i7-2677M</supportedProcessor>
+        <supportedProcessor>i7-2700K</supportedProcessor>
+        <supportedProcessor>i7-2710QE</supportedProcessor>
+        <supportedProcessor>i7-2715QE</supportedProcessor>
+        <supportedProcessor>i7-2720QM</supportedProcessor>
+        <supportedProcessor>i7-2760QM</supportedProcessor>
+        <supportedProcessor>i7-2820QM</supportedProcessor>
+        <supportedProcessor>i7-2860QM</supportedProcessor>
+        <supportedProcessor>i7-2920XM</supportedProcessor>
+        <supportedProcessor>i7-2960XM</supportedProcessor>
+        <supportedProcessor>i7-3517U</supportedProcessor>
+        <supportedProcessor>i7-3517UE</supportedProcessor>
+        <supportedProcessor>i7-3520M</supportedProcessor>
+        <supportedProcessor>i7-3537U</supportedProcessor>
+        <supportedProcessor>i7-3540M</supportedProcessor>
+        <supportedProcessor>i7-3555LE</supportedProcessor>
+        <supportedProcessor>i7-3610QE</supportedProcessor>
+        <supportedProcessor>i7-3610QM</supportedProcessor>
+        <supportedProcessor>i7-3612QE</supportedProcessor>
+        <supportedProcessor>i7-3612QM</supportedProcessor>
+        <supportedProcessor>i7-3612QM</supportedProcessor>
+        <supportedProcessor>i7-3615QE</supportedProcessor>
+        <supportedProcessor>i7-3615QM</supportedProcessor>
+        <supportedProcessor>i7-3630QM</supportedProcessor>
+        <supportedProcessor>i7-3632QM</supportedProcessor>
+        <supportedProcessor>i7-3632QM</supportedProcessor>
+        <supportedProcessor>i7-3635QM</supportedProcessor>
+        <supportedProcessor>i7-3667U</supportedProcessor>
+        <supportedProcessor>i7-3687U</supportedProcessor>
+        <supportedProcessor>i7-3689Y</supportedProcessor>
+        <supportedProcessor>i7-3720QM</supportedProcessor>
+        <supportedProcessor>i7-3740QM</supportedProcessor>
+        <supportedProcessor>i7-3770</supportedProcessor>
+        <supportedProcessor>i7-3770K</supportedProcessor>
+        <supportedProcessor>i7-3770S</supportedProcessor>
+        <supportedProcessor>i7-3770T</supportedProcessor>
+        <supportedProcessor>i7-3820QM</supportedProcessor>
+        <supportedProcessor>i7-3840QM</supportedProcessor>
+        <supportedProcessor>i7-3920XM</supportedProcessor>
+        <supportedProcessor>i7-3940XM</supportedProcessor>
+        <supportedProcessor>i7-4500U</supportedProcessor>
+        <supportedProcessor>i7-4510U</supportedProcessor>
+        <supportedProcessor>i7-4550U</supportedProcessor>
+        <supportedProcessor>i7-4558U</supportedProcessor>
+        <supportedProcessor>i7-4578U</supportedProcessor>
+        <supportedProcessor>i7-4600M</supportedProcessor>
+        <supportedProcessor>i7-4600U</supportedProcessor>
+        <supportedProcessor>i7-4610M</supportedProcessor>
+        <supportedProcessor>i7-4610Y</supportedProcessor>
+        <supportedProcessor>i7-4650U</supportedProcessor>
+        <supportedProcessor>i7-4700EQ</supportedProcessor>
+        <supportedProcessor>i7-4700HQ</supportedProcessor>
+        <supportedProcessor>i7-4700MQ</supportedProcessor>
+        <supportedProcessor>i7-4701EQ</supportedProcessor>
+        <supportedProcessor>i7-4702HQ</supportedProcessor>
+        <supportedProcessor>i7-4702MQ</supportedProcessor>
+        <supportedProcessor>i7-4710HQ</supportedProcessor>
+        <supportedProcessor>i7-4710MQ</supportedProcessor>
+        <supportedProcessor>i7-4712HQ</supportedProcessor>
+        <supportedProcessor>i7-4712MQ</supportedProcessor>
+        <supportedProcessor>i7-4750HQ</supportedProcessor>
+        <supportedProcessor>i7-4760HQ</supportedProcessor>
+        <supportedProcessor>i7-4765T</supportedProcessor>
+        <supportedProcessor>i7-4770</supportedProcessor>
+        <supportedProcessor>i7-4770HQ</supportedProcessor>
+        <supportedProcessor>i7-4770K</supportedProcessor>
+        <supportedProcessor>i7-4770R</supportedProcessor>
+        <supportedProcessor>i7-4770S</supportedProcessor>
+        <supportedProcessor>i7-4770T</supportedProcessor>
+        <supportedProcessor>i7-4770TE</supportedProcessor>
+        <supportedProcessor>i7-4771</supportedProcessor>
+        <supportedProcessor>i7-4785T</supportedProcessor>
+        <supportedProcessor>i7-4790</supportedProcessor>
+        <supportedProcessor>i7-4790K</supportedProcessor>
+        <supportedProcessor>i7-4790S</supportedProcessor>
+        <supportedProcessor>i7-4790T</supportedProcessor>
+        <supportedProcessor>i7-4800MQ</supportedProcessor>
+        <supportedProcessor>i7-4810MQ</supportedProcessor>
+        <supportedProcessor>i7-4850EQ</supportedProcessor>
+        <supportedProcessor>i7-4850HQ</supportedProcessor>
+        <supportedProcessor>i7-4860EQ</supportedProcessor>
+        <supportedProcessor>i7-4860HQ</supportedProcessor>
+        <supportedProcessor>i7-4870HQ</supportedProcessor>
+        <supportedProcessor>i7-4900MQ</supportedProcessor>
+        <supportedProcessor>i7-4910MQ</supportedProcessor>
+        <supportedProcessor>i7-4930MX</supportedProcessor>
+        <supportedProcessor>i7-4940MX</supportedProcessor>
+        <supportedProcessor>i7-4950HQ</supportedProcessor>
+        <supportedProcessor>i7-4960HQ</supportedProcessor>
+        <supportedProcessor>i7-4980HQ</supportedProcessor>
+        <supportedProcessor>J1800</supportedProcessor>
+        <supportedProcessor>J1900</supportedProcessor>
+        <supportedProcessor>J2900</supportedProcessor>
+        <supportedProcessor>N2807</supportedProcessor>
+        <supportedProcessor>N2808</supportedProcessor>
+        <supportedProcessor>N2830</supportedProcessor>
+        <supportedProcessor>N2840</supportedProcessor>
+        <supportedProcessor>N2930</supportedProcessor>
+        <supportedProcessor>N2940</supportedProcessor>
+        <supportedProcessor>N3530</supportedProcessor>
+        <supportedProcessor>N3540</supportedProcessor>
+        <supportedProcessor>Z3740</supportedProcessor>
+        <supportedProcessor>Z3740D</supportedProcessor>
+        <supportedProcessor>Z3770</supportedProcessor>
+        <supportedProcessor>Z3770D</supportedProcessor>
+      </supportedProcessors>
+    </quicksync>
+  </xsplit>
+</configuration>

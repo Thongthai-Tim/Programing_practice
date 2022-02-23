@@ -1,0 +1,57 @@
+<configuration>
+	<img name="VidyoDesktop.exe" />
+	<img name="FlashMediaLiveEncoder.exe" />
+	<img name="iexplore.exe" gapitype="DX9" />
+	<img name="iexplore.exe" gapitype="DXGI" />
+	<img name="iexplore.exe" gapitype="DX10" />
+	<img name="iexplore.exe" gapitype="DX11" />
+	<img name="skype.exe" />
+	<img name="XSplitBroadcasterServer.exe" />
+	<img name="devenv.exe" />
+	<img name="excel.exe" />
+	<img name="groove.exe" />
+	<img name="infopath.exe" />
+	<img name="lync.exe" />
+	<img name="msaccess.exe" />
+	<img name="mspub.exe" />
+	<img name="onenote.exe" />
+	<img name="outlook.exe" />
+	<img name="powerpnt.exe" />
+	<img name="winword.exe" />
+	<img name="chrome.exe" gapitype="DX9" />
+	<img name="chrome.exe" gapitype="DX9Ex" />
+	<img name="chrome.exe" gapitype="DXGI" />
+	<img name="chrome.exe" gapitype="DX10" />
+	<img name="chrome.exe" gapitype="DX11" />
+	<img name="firefox.exe" gapitype="DX9" />
+	<img name="firefox.exe" gapitype="DXGI" />
+	<img name="firefox.exe" gapitype="DX10" />
+	<img name="firefox.exe" gapitype="DX11" />
+	<img name="opera.exe" gapitype="DX9" />
+	<img name="opera.exe" gapitype="DXGI" />
+	<img name="opera.exe" gapitype="DX10" />
+	<img name="opera.exe" gapitype="DX11" />
+	<img name="safari.exe" gapitype="DX9" />
+	<img name="safari.exe" gapitype="DXGI" />
+	<img name="safari.exe" gapitype="DX10" />
+	<img name="safari.exe" gapitype="DX11" />
+	<img name="explorer.exe" />
+	<img name="dwm.exe" />
+	<img name="WLXPhotoGallery.exe" />
+	<img name="GameCapture.exe" />
+	<img name="MediaCaptureGame1X.exe" />
+	<img name="VideoWaveGame1X.exe" />
+	<img name="CCC.exe" />
+	<img name="MediaExpress.exe" />
+	<img name="nvtray.exe" />
+	<img name="wuauclt.exe" />
+	<img name="ComUpdatus.exe" />
+	<img name="IAStorIcon.exe" />
+	<img name="OnekeySupport.exe" />
+	<img name="TouchZone.exe" />
+	<img name="PManage.exe" />
+	<img name="rundll32.exe" />
+	<img name="rads_user_kernel.exe" />
+	<img name="xsplit_patch.exe" />
+	<img name="xsplit_installer.exe" />
+</configuration>
