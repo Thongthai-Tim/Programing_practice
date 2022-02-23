@@ -1,6 +1,5 @@
 import random
-
-
+# yay
 life = 3
 print("life:",life)
 while True:
